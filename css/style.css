@@ -1,0 +1,229 @@
+
+@import url(http://fonts.googleapis.com/css?family=Arimo);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+@import url(http://fonts.googleapis.com/css?family=Mako);
+
+/* BEGIN GENERAL STYLES */
+*  {
+    font-family: 'PTSans', sans-serif;
+}
+
+body {
+     text-align: center;   
+}
+
+.vertical-align {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+}
+
+.padding {
+    padding: 100px 10px;
+}
+/* END GENERAL STYLES /*
+
+/* BEGIN NAVBAR */
+.navbar-carshare {
+    background-color: #fff;
+    height: 105px;
+    /*border-bottom: #2b2b2b solid 5px;*/
+}
+
+.navbar ul {
+    margin-top: 28px;
+}
+
+.navbar li > a {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #48bcbb!important;
+}
+
+.navbar li:hover {
+    background-color: #efefef;
+}
+
+.navbar li > a:hover {
+    border-bottom: #48bcbb solid 2px;
+    transition-duration: .2s;
+}
+
+.navbar-carshare .container {
+	max-width: 1170px;
+	width: 100%;
+}
+/*END NAVBAR */
+
+/* BEGIN INDEX */
+.banner {
+    background: url(../img/content/banner/bg1.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: calc(100vh);
+    width: 100%;
+}
+
+.banner h1 {
+    color: #fff;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.banner h3 {
+    color: #fff;
+    font-family: 'Arimo', sans-serif;
+    font-size: 28px;
+    line-height: 0.4;
+}
+
+.banner .space {
+    height: 50px;
+}
+
+.banner a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+    height: 40px;
+    background-color: #48bcbb;
+}
+
+.banner a:hover {
+    background-color: #42abaa;   
+}
+
+.banner p {
+    font: 18px 'Arimo', sans-serif;
+    padding-top: 10px;
+}
+/* END INDEX */
+
+/* BEGIN SERVICIOS */
+.empresa p {
+    font-size: 18px;
+    line-height: 3;
+}
+
+.empresa h1 {
+    color: #48bcbb;
+}
+
+.empresa h1, h3 {
+    line-height: 1.5;  
+    margin: 30px 0;
+}
+
+.empresa img {
+    display: block;
+    margin: 0 auto;
+    height: 130px;   
+}
+/* END SERVICIOS */
+
+/* BEGIN MISION */
+.mision {
+     color: #fff;
+}
+
+.mision h1 {
+    margin-top: 40px;   
+}
+
+.mision p {
+    font-size: 18px;
+}
+/* END MISION */
+
+/* BEGIN CREADORES */
+.creadores h1 {
+    color: #48bcbb;
+    padding-bottom: 40px;
+}
+/* END CREADORES */
+
+/* BEGIN CLIENTES */
+.clientes {
+    color: #fff;   
+}
+
+.clientes h1 {
+    margin-top: 80px;
+}
+/* END CLIENTES */
+
+/* BEGIN FOOTER */
+footer {
+	background-color: #7cb49f;
+	color: #ffffff;
+	font: 400 14.01px / 30px;
+}
+
+footer .border-right {
+	padding-top: 20px;
+	border-right: #ffffff solid 1px;
+	padding-right: 30px;
+}
+
+footer .border-right img {
+	float: right;
+}
+
+footer .border-left {
+	border-left: #ffffff solid 1px;
+	padding-left: 30px;
+}
+
+footer .border-left {
+    float: left;
+}
+
+.footer-item {
+    margin: 30px 0;
+	height: 175px;
+}
+
+.footer-rights {
+    min-height: 48px;
+	background-color: #3c7f63;
+	color: #ffffff;
+	font: 400 12px / 20px Mako;
+	text-align: center;
+}
+
+.footer-rights .rights {
+    padding-top: 15px;
+	display: block;
+}
+
+/* END FOOTER */
+
+/* Parallax CSS */
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+    min-height: 400px;
+    height: auto;
+}
+
+.parallax {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; 
+}
+
+.parallax img {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    min-width: 1920px;
+    width: 100%;
+    background-position: center; 
+}
